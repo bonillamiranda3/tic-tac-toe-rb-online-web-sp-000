@@ -122,7 +122,7 @@ def turn(board)
   end
 end
 
-  def player_move(board, index, token)
+  def player_move(board, index,)
     board[index] = token
   end
 
@@ -130,7 +130,7 @@ def play(board)
   until over?(board) || won?(board)
     turn(board)
   end
-  puts "Cat\'s Game!" if draw?(board)
+  puts "Cat's Game!" if draw?(board)
   puts "Congratulations X!" if winner(board) == "X"
   puts "Congratulations O!" if winner(board) == "O"
 end
