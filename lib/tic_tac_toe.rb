@@ -130,7 +130,7 @@ def play(board)
   until over?(board) || won?(board)
     turn(board)
   end
-  puts "Alex's Game" if draw?(board)
+  puts "Cat's Game" if draw?(board)
   puts "Congrats" if winner(board) == "X"
   puts "Congrats" if winner(board) == "O"
 end
