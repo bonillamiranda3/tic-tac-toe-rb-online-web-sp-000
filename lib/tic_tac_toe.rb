@@ -122,7 +122,7 @@ def turn(board)
   end
 end
 
-  def player_move(board, index,)
+  def player_move(board, index)
     board[index] = token
   end
 
