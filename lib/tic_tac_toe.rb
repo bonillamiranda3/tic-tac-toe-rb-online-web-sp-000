@@ -64,7 +64,7 @@ def winner(board)
   nil
 end
 
-def position_taken?(board, index)
+def position_taken?(board, index, token)
   if board[index] == " " || board [index] == "" || board[index].nil?
     return false
   else
