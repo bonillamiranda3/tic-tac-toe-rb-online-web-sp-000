@@ -119,11 +119,11 @@ def turn(board)
     turn(board)
   else
     player_move(board, index, token)
-    board[index] = token
+    display_board(board)
   end
 end
 
-  def player_move(board, index)
+  def player_move(board, index, token)
     board[index] = token
   end
 
